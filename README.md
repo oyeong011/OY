@@ -376,6 +376,8 @@ $git tag -d [태그이름] : 태그 지우기
 ```
 
 
+### INDEX
+
 |[init](#git-init)|[config](#git-config)|[add](#git-add)|[status](#git-status)|[commit](#git-commit)|[log](#git-log)|
 |-----------------|---------------------|---------------|---------------------|---------------------|---------------|
 |[reset](#git-reset)|[branch](#git-branch)|[checkout](#git-checkout)|[merge](#git-merge)|[rebase](#git-rebase)|[remote](#git-remote)|
