@@ -491,3 +491,52 @@ eat: it was a [hobbit-hole][1], and that means comfort.
 
 [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 ```
+
+# 10) 이미지
+이미지를 추가하려면 느낌표(), 괄호에 alt 텍스트, 괄호의 이미지 자산에 경로 또는 URL을 추가합니다. 괄호 안에 URL 이후에 선택적으로 제목을 추가할 수 있습니다.
+> #### ![제목](사진이 있는 링크)
+
+### EX)
+```
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+```
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+## 1)) 이미지 연결
+이미지에 링크를 추가하려면 괄호안에 있는 이미지의 Markdown을 둘러친 다음 괄호안에 링크를 추가합니다.
+> #### ![제목](사진이 있는 링크)
+```
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+```
+![Philadelphia's Magic Gardens. This place was so cool!](philly-magic-garden.jpg "Philadelphia's Magic Gardens")
+### EX)
+```
+[![An old rock in the desert](shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+```
+[![An old rock in the desert](shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+# 11) 캐릭터 탈출
+Markdown 문서에서 텍스트를 포맷하는 데 ***사용할 문자를 표시***하려면 문자 앞에 백슬래시(백슬래시)를 추가합니다.\
+> ## \
+
+탈출할 수 있는 캐릭터
+* \	
+* `	백틱(코드에서 백틱을 벗어나는 것 참조))
+* \*
+* _	
+* { }
+* [ ]
+* < >
+* ( )
+* \#
+* \+
+* \-
+* .	
+* !	
+* |
+
+### EX)
+```
+\* Without the backslash, this would be a bullet in an unordered list.
+```
+
+
+https://github.com/oyeong011/SE-TASK
