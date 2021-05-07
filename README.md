@@ -1,4 +1,4 @@
-
+https://github.com/oyeong011/OY/blob/main/README.md
 # GIT
 
 ## 1) GIT과 GITHUB란?
