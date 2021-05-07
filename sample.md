@@ -439,3 +439,55 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 <fake@example.com>
 ```
 
+* ## 링크 서식 지정
+> 링크 강조를 원하면 <> 양쪽에 별표를 쳐서 강조나 BOLD만들기
+### EX)
+```
+I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
+```
+
+* ## 참조 스타일 링크
+참조 스타일 링크는 마크다운에서 URL을 쉽게 표시하고 읽을 수 있는 특별한 종류의 링크입니다. 참조 스타일 링크는 텍스트와 인라인으로 유지하는 부분과 파일을 다른 곳에 저장하는 부분으로 텍스트를 읽기 쉽게 유지할 수 있습니다.
+
+   ### 1)))) 링크의 첫 번째 부분 서식 지정
+  참조 스타일 링크의 첫 번째 부분은 []로 서식합니다. 괄호의 첫 번째 집합은 연결된 것처럼 보이는 텍스트를 둘러싸고 있습니다. 두 번째 괄호 세트에는 문서의 다른 곳에 저장하는 링크를 가리키는 데 사용되는 레이블이 표시됩니다.
+
+> ### [][]
+### EX)
+```
+[hobbit-hole][1]
+[hobbit-hole] [1]
+```
+필요는 없지만 첫 번째 와 두 번째 괄호 집합 사이에 공백을 포함할 수 있습니다. 두 번째 괄호 세트의 레이블은 대/소문자, 숫자, 공백 또는 문장 부호를 포함할 수 있습니다.
+  ### 2)))) 링크의 두 번째 부분 서식
+
+대괄호로 라벨이 곧바로 이어지며, 그 다음에는 결장과 하나 이상의 공간(예:)이 뒤따랐다.
+> ### [label]:
+링크의 URL은 선택적으로 <>에 동봉할 수 있습니다.
+이중 따옴표, 단일 따옴표 또는 괄호에 동봉할 수 있는 링크의 선택적 제목입니다.
+즉, 다음 예제 형식은 모두 링크의 두 번째 부분에 대해 거의 동일합니다.
+
+> ### [번호] : (<)링크(>) {" , ' , ( 중하나} 제목 {", ' , ( 중 하나}
+### EX)
+```
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+```
+* ## 부품을 함께 넣는 예
+URL을 단락에 표준 URL 링크로 추가하면 Markdown에서 다음과 같다.
+
+### EX)
+```
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
+of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
+eat: it was a [hobbit-hole][1], and that means comfort.
+
+[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+```
