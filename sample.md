@@ -120,3 +120,184 @@ Italicized text is the _cat's meow_.	Italicized text is the <em>cat's meow</em>.
 
 A*cat*meow	                                        A<em>cat</em>meow	
 ```
+
+## 3))  BOLD and 이태릭
+BOLD와 이태릭체를 하고싶으면 ***별표 세개*** 하기
+# ***
+### EX)
+```
+            Markdown	                                          HTML
+
+This text is ***really important***.	This text is <strong><em>really important</em></strong>.	
+
+This text is ___really important___.	This text is <strong><em>really important</em></strong>.	
+
+This text is __*really important*__.	This text is <strong><em>really important</em></strong>.	.
+
+This text is **_really important_**.	This text is <strong><em>really important</em></strong>.	
+
+This is really***very***important text.	This is really<strong><em>very</em></strong>important text.	
+```
+
+# 5) 블록 따옴표
+블록따옴표를 만들려면 단락 앞에 블록을 추가. 
+# >
+### EX)
+
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+## 1)) 여러 단락의 차단
+블록 따옴표에는 여러 단락이 포함될 수 있습니다. 단락 사이에 빈 줄에 추가합니다.
+### ex)
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+
+## 2)) 중첩 된 블록 따옴표
+블록 따옴표를 중첩 할 수 있습니다. 중첩할 단락 앞에 추가합니다.
+### >>
+### EX)
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+```
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+## 3)) 다른 요소와 블록 따옴표
+블록 따옴표는 다른 요소들 #같은 *같은 것들이랑 같이 쓸수있음
+### EX)
+```
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
+```
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
+
+# 6) 목록
+항목을 정렬된 목록과 주문되지 않은 목록으로 구성할 수 있습니다.
+
+* ## order list
+숫자와 함께 줄 항목과 마침표뒤에 추가 숫자는 숫자 순서로 있을 필요는 없지만   
+목록은 숫자 ***1***로 시작해야함.
+### EX)
+```
+1. Markdown	
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item	
+
+1. HTML
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ol>
+
+2. Markdown	
+
+1. First item
+1. Second item
+1. Third item
+1. Fourth item	
+
+2. HTML
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ol>
+
+3. Markdown
+
+1. First item
+8. Second item
+3. Third item
+5. Fourth item	
+
+3. HTML
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ol>
+
+4. Markdown
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
+4. HTML
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+<ol>
+  <li>Indented item</li>
+  <li>Indented item</li>
+</ol>
+</li>
+  <li>Fourth item</li>
+</ol>
+```
+> 실행결과 동일
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+* ## disorder list
+정렬되지 않은 목록을 만들려면 광고 항목 앞에 대시(대시), 별표(또는 표지판)를 추가합니다. 중첩된 목록을 만들 수 있는 하나 이상의 항목을 들여쓰기합니다.
+1. # - 
+1. # *
+1. # +
+
+### EX)
+```
+1. Markdown
+
+- First item
+- Second item
+- Third item
+- Fourth item	
+
+1. HTML	
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ul>	
