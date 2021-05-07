@@ -374,3 +374,12 @@ $git tag -a [태그이름] : 태그 추가할떄 사용 (태그를 만든 사람
 $git show [태그이름] : 태그 정보 보기
 $git tag -d [태그이름] : 태그 지우기
 ```
+
+
+|[init](#git-init)|[config](#git-config)|[add](#git-add)|[status](#git-status)|[commit](#git-commit)|[log](#git-log)|
+|-----------------|---------------------|---------------|---------------------|---------------------|---------------|
+|    [reset](#git-reset)|    [branch](#git-branch)|[checkout](#git-checkout)|[merge](#git-merge)|[rebase](#git-rebase)|[remote](#git-remote)|
+|-------------------|---------------------|-------------------------|-------------------|---------------------|---------------------|
+|[push](#git-push)|[pull](#git-pull)|[clone](#git-clone)|[tag](#git-tag)|
+
+
