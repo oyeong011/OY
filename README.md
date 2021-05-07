@@ -319,6 +319,14 @@ $git remote rm (리모트이름) : 리모트 경로를 제거
 $git push otigin master
 ```
 
+4. 따라서 이 명령어는 깃허브 저장소에 현재 자신의 프로젝트를 공유할 때 사용한다.
+
+5. 필자가 생각하는 자주쓰이는 옵션은 다음과 같다.
+```
+$git push <저장소명> <브랜치명> : 저장소에 이 브랜치를 밀어넣는다.
+$git push -u <저장소명> <브랜치명> : 령어를 날릴 때 마다 매번 저장소명과 브랜치명을 입력하는 게 귀찮게 느껴질 수 있습니다. 이럴 경우, -u 옵션을 사용하면 최초에 한 번만 저장소명과 브랜치명을 입력하고 그 이후에는 모든 인자를 생략할 수 있습니다. 즉 이다음에는 [$git push]만 사용해도된다.
+
+```
 ![image](https://user-images.githubusercontent.com/53222742/117436677-34abca80-af6a-11eb-9dd1-9f183f3f93ee.png)
 
 
@@ -330,9 +338,22 @@ $git push otigin master
 
 3. 윈도우에 새로운 빈파일을 만들고 다음과 같은 명령어를 입력한다.
 
+![image](https://user-images.githubusercontent.com/53222742/117488350-42cc0c00-afa7-11eb-8179-e6e216c52e80.png)
+
 ```
 $git clone https://github.com/oyeong011/OY.git : 깃허브에 있는 프로젝트 파일을 빈파일에다가 복제함
 ```
+
+![image](https://user-images.githubusercontent.com/53222742/117488400-52e3eb80-afa7-11eb-9238-62ac1e161ee5.png)
+
+4. 따라서 이 명령어는 빈 파일에 깃허브에 있는 파일들을 복제하기 위해서 쓰인다. 즉 저장소를 연결해서 사용하는 것이다.
+
+* git clone을 하고 빈파일에서 깃허브에서 받아온 파일이 복제되었다.
+
+![image](https://user-images.githubusercontent.com/53222742/117488740-ba01a000-afa7-11eb-8bcd-3ce54d18bd46.png)
+
+
+
 
 * ### git pull
 
@@ -346,7 +367,8 @@ $git clone https://github.com/oyeong011/OY.git : 깃허브에 있는 프로젝�
 $git pull origin main
 ```
 
-4. 따라서 이명령어는 
+4. 따라서 이명령어는 깃허브에서 있는 작업들을 컴퓨터 프로젝트 파일에 내려받아 업데이트하기 위해서 사용된다.
+
 
 ![image](https://user-images.githubusercontent.com/53222742/117444590-a1c45d80-af74-11eb-9746-7ee7b31b81a7.png)
 
