@@ -36,8 +36,8 @@ https://github.com/oyeong011/OY/blob/main/README.md
 * [rebase](#git-rebase)
 * [remote](#git-remote)
 * [push](#git-push)
-* git pull
-* git clone
+* [pull](#git-pull)
+* [clone](#git-clone)
 * git tag
 
 ### 프로젝트 설명
@@ -240,7 +240,9 @@ $git rebase master : 본인의 브랜치 커밋들을 복사해서 master 밑에
 $git checkout master : 브랜치 위치를 master으로 이동 
 $git rebase my-another-idea : 브랜치의 위치를 my-another-idea로 이동
 ```
+
 결과는 그림과 같다
+
 ![image](https://user-images.githubusercontent.com/53222742/117415649-8137db80-af53-11eb-87ed-c990b2852d02.png)
 
 4. 따라서 이 명령어는 브랜치를 병합할때 사용하고 좀 더 깨끗한 히스토리를 만들때 사용한다.
@@ -295,7 +297,7 @@ $git push otigin master
 $git clone https://github.com/oyeong011/OY.git : 깃허브에 있는 프로젝트 파일을 빈파일에다가 복제함
 ```
 
-* git pull
+* ### git pull
 
 1. 다른 개발자가 프로젝트를 마무리하여 문서가 완성되고 git push를 이용해서 깃허브의 내용이 업데이트된 상태
 
@@ -307,3 +309,7 @@ $git pull origin main
 ```
 4. 따라서 이명령어는 
 ![image](https://user-images.githubusercontent.com/53222742/117444590-a1c45d80-af74-11eb-9746-7ee7b31b81a7.png)
+
+* ### git tag
+
+1. 
