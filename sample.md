@@ -300,4 +300,142 @@ This is really***very***important text.	This is really<strong><em>very</em></str
   <li>Second item</li>
   <li>Third item</li>
   <li>Fourth item</li>
+</ul>
+
+2. Markdown
+
+* First item
+* Second item
+* Third item
+* Fourth item	
+
+2. HTML
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
 </ul>	
+
+3. Markdown
+
++ First item
++ Second item
++ Third item
++ Fourth item	
+
+3. HTML
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ul>
+
+4. Markdown
+
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item	
+
+4. HTML
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item
+<ul>
+  <li>Indented item</li>
+  <li>Indented item</li>
+</ul>
+</li>
+  <li>Fourth item</li>
+</ul>
+```
+* ##  목록에 요소 추가
+목록에 다른 요소를 추가 하고싶으면 탭이나 띄어쓰기 네번
+
+### 엔터 또는 띄어쓰기 네번
+
+# 7) 코드
+단어 나 구를 코드로 나타내려면 백틱에 동봉하십시오.`
+> ## '
+### EX)
+```
+Markdown
+
+At the command prompt, type `nano`.	
+
+HTML	
+
+At the command prompt, type <code>nano</code>.
+```
+
+Markdown	Html	렌더링된 출력
+At the command prompt, type `nano`.	At the command prompt, type <code>nano</code>.	명령 프롬프트에서 .nano
+* ## 백틱 탈출
+코드로 나타내려는 단어 나 문구에 하나 이상의 백틱이 포함되어 있는 경우 단어 또는 구를 이중 백틱()으로 둘러싸서 탈출할 수 있습니다.
+> ## ``
+
+### EX)
+```
+Markdown
+
+``Use `code` in your Markdown file.``	
+
+HTML
+
+<code>Use `code` in your Markdown file.</code>
+```
+
+* ## 코드 블록
+코드 블록을 만들려면 블록의 모든 줄을 적어도 4개의 공백 또는 하나의 탭으로 들여쓰기합니다.
+
+### EX)
+```
+    <html>
+      <head>
+      </head>
+    </html>
+```
+ 참고: 라인을 들여쓰지 않고 코드 블록을 만들려면 울타리가 있는 코드 블록을사용합니다.
+
+# 8) horizontal rules
+수평 규칙을 만들려면 선에 3개 이상의 별표(), 대시(또는 밑줄)를 사용
+### EX)
+```
+***
+
+---
+
+_________________
+```
+
+# 9) 링크
+링크를 만들려면 링크 텍스트를 괄호(예:)로 둘러본 다음 괄호안에 있는 URL(예:)으로 바로 따르십시오.[링크 제목](https://google.com)
+> ##### [하이퍼링크]+(사이트주소)
+### EX)
+```
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+```
+* ## 타이틀 추가
+>[]을 이용해서 하이퍼링크 제목을 정할수있음
+### EX)
+```
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+```
+
+* ## URL 및 이메일 주소
+>URL 또는 이메일 주소를 링크로 빠르게 바꾸려면 <링크> 사용
+> ## <>
+### EX)
+```
+<https://www.markdownguide.org>
+<fake@example.com>
+```
+
