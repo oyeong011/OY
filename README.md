@@ -1,4 +1,4 @@
-https://github.com/oyeong011/TASK/blob/main/README.md
+
 # GIT
 
 ## 1) GIT과 GITHUB란?
@@ -86,8 +86,11 @@ $git config --list : 설정한 모든 것을 리스트로 확인
 * ### git add
 
 1. 지금 현 상태는 위의 사진 git status라는 명령어를 입력해서 지금 프로젝트의 상태를 확인했고 sample.md가 Untracted 상태 즉 깃이 이 sample.md파일을 보고있지 않은 상태를 뜻한다.또 빨간색으로 표시된 sample.md는 파일이 만들어졌다는 사실을 지칭한다.
+
 2. 지금까지 작업했던 파일들의 변경점을 저장하고 싶습니다.
+
 3. 그래서 다음과 같은 명령어를 입력했습니다.
+
 ```
 git add -A
 ```
@@ -247,8 +250,11 @@ $git rebase my-another-idea : 브랜치의 위치를 my-another-idea로 이동
 * ### git remote
 
 1. 프로젝트가 어느 정도 완성이 되어감
+
 2. 이를 다른 사람들과 공유하고 보완할점을 조언받고자 깃허브에 올리고자 저장소를 마련해야함
+
 3-1. 깃허브에 가입하고 레퍼지토리를 생성함
+
 3-2. 다음과 같은 명령어를 이용해 저장소를 연결
 ```
 $git remote add origin https://github.com/oyeong011/TASK.git : git remote add origin (깃허브주소)
@@ -279,5 +285,14 @@ $git push otigin master
 
 
 * ### git clone
+
+1. 파일 문서가 깃허브에 올라온 상태
+
+2. 이 문서를 다른 개발자가 받아서 수정을 하고자함
+
+3. 윈도우에 새로운 빈파일을 만들고 다음과 같은 명령어를 입력한다.
+```
+$git clone 
+```
 
 * git pull
