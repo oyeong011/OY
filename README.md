@@ -292,7 +292,18 @@ $git push otigin master
 
 3. 윈도우에 새로운 빈파일을 만들고 다음과 같은 명령어를 입력한다.
 ```
-$git clone 
+$git clone https://github.com/oyeong011/OY.git : 깃허브에 있는 프로젝트 파일을 빈파일에다가 복제함
 ```
 
 * git pull
+
+1. 다른 개발자가 프로젝트를 마무리하여 문서가 완성되고 git push를 이용해서 깃허브의 내용이 업데이트된 상태
+
+2. 여기서 업데이트된 깃허브에있는 프로젝트를 필자의 vscode에 받고자함
+
+3. 다음과 같은 명령어를 입력한다.
+```
+$git pull origin main
+```
+4. 따라서 이명령어는 
+![image](https://user-images.githubusercontent.com/53222742/117444590-a1c45d80-af74-11eb-9746-7ee7b31b81a7.png)
