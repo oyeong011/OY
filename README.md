@@ -401,10 +401,30 @@ $git tag -d [태그이름] : 태그 지우기
 
 
 ### INDEX
-
-|[init](#git-init)|[config](#git-config)|[add](#git-add)|[status](#git-status)|[commit](#git-commit)|[log](#git-log)|
-|-----------------|---------------------|---------------|---------------------|---------------------|---------------|
+|     명령어       |       사용여부      |
+|-----------------|---------------------|
+|[init](#git-init)|          O          ||[log](#git-log)|
+|[add](#git-add)  |          O          |
+|[config](#git-config)|      O          |
+|[log](#git-log)|     O          |
+|[status](#git-status)|      O          |
+|[reset](#git-reset)|      O          |
+|[commit](#git-commit)|      O          |
+|[branch](#git-branch)|      O          |
+|[checkout](#git-checkout)|      O          |
+|[merge](#git-merge)|      O          |
+|[commit](#git-commit)|      O          |
+||
 |[reset](#git-reset)|[branch](#git-branch)|[checkout](#git-checkout)|[merge](#git-merge)|[rebase](#git-rebase)|[remote](#git-remote)|
 |[push](#git-push)|[pull](#git-pull)|[clone](#git-clone)|[tag](#git-tag)|
 
+
+
+
+* [rebase](#git-rebase)
+* [remote](#git-remote)
+* [push](#git-push)
+* [pull](#git-pull)
+* [clone](#git-clone)
+* [tag](#git-tag)
 
