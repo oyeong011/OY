@@ -413,7 +413,7 @@ $git tag -d [태그이름] : 태그 지우기
 |[branch](#git-branch)|      O          |
 |[checkout](#git-checkout)|      O      |
 |[merge](#git-merge)|        O          |
-|[reset](#git-reset)|        O          |
+|[reset --hard](#git-reset)|        O          |
 |[rebase](#git-rebase)|      O          |
 [remote](#git-remote)|       O          | 
 |[push](#git-push)|          O          |
