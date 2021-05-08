@@ -403,28 +403,20 @@ $git tag -d [태그이름] : 태그 지우기
 ### INDEX
 |     명령어       |       사용여부      |
 |-----------------|---------------------|
-|[init](#git-init)|          O          ||[log](#git-log)|
+|[init](#git-init)|          O          |
 |[add](#git-add)  |          O          |
 |[config](#git-config)|      O          |
-|[log](#git-log)|     O          |
+|[log](#git-log)|            O          |
 |[status](#git-status)|      O          |
-|[reset](#git-reset)|      O          |
+|[reset](#git-reset)|      O            |
 |[commit](#git-commit)|      O          |
 |[branch](#git-branch)|      O          |
-|[checkout](#git-checkout)|      O          |
-|[merge](#git-merge)|      O          |
-|[commit](#git-commit)|      O          |
-||
-|[reset](#git-reset)|[branch](#git-branch)|[checkout](#git-checkout)|[merge](#git-merge)|[rebase](#git-rebase)|[remote](#git-remote)|
-|[push](#git-push)|[pull](#git-pull)|[clone](#git-clone)|[tag](#git-tag)|
-
-
-
-
-* [rebase](#git-rebase)
-* [remote](#git-remote)
-* [push](#git-push)
-* [pull](#git-pull)
-* [clone](#git-clone)
-* [tag](#git-tag)
-
+|[checkout](#git-checkout)|      O      |
+|[merge](#git-merge)|        O          |
+|[reset](#git-reset)|        O          |
+|[rebase](#git-rebase)|      O          |
+[remote](#git-remote)|       O          | 
+|[push](#git-push)|          O          |
+|[pull](#git-pull)|           O          |
+|[clone](#git-clone)|         O          |
+|[tag](#git-tag)|             O          |
